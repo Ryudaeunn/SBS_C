@@ -1,17 +1,18 @@
 #include <stdio.h>
 int main(){
+    
     int num;
-    printf("ì •ìˆ˜ ì…ë ¥ :");
+    printf("Á¤¼ö ÀÔ·Â :");
     scanf("%d", &num);
 
     if(num < 3)
-        printf("ë³€ìˆ˜ numì€ 3ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤. \n");
+        printf("º¯¼ö numÀº 3º¸´Ù ÀÛ½À´Ï´Ù. \n");
 
     if(num == 3)
-        printf("ë³€ìˆ˜ numì€ 3ì…ë‹ˆë‹¤. \n");
+        printf("º¯¼ö numÀº 3ÀÔ´Ï´Ù. \n");
 
     if(num > 3)
-        printf("ë³€ìˆ˜ numì€ 3ë³´ë‹¤ í½ë‹ˆë‹¤. \n");
+        printf("º¯¼ö numÀº 3º¸´Ù Å®´Ï´Ù. \n");
 
 
     return 0;
